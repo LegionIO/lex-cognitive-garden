@@ -99,14 +99,14 @@ module Legion
 
           def garden_report
             {
-              total_plants:     @plants.size,
-              total_plots:      @plots.size,
-              by_type:          plants_by_type,
-              flourishing:      flourishing_plants.size,
-              withered:         withered_plants.size,
-              thirsty:          thirsty_plants.size,
-              mature:           mature_plants.size,
-              avg_health:       avg_health
+              total_plants: @plants.size,
+              total_plots:  @plots.size,
+              by_type:      plants_by_type,
+              flourishing:  flourishing_plants.size,
+              withered:     withered_plants.size,
+              thirsty:      thirsty_plants.size,
+              mature:       mature_plants.size,
+              avg_health:   avg_health
             }
           end
 

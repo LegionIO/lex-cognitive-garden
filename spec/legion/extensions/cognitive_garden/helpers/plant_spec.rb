@@ -55,7 +55,7 @@ RSpec.describe Legion::Extensions::CognitiveGarden::Helpers::Plant do
       well_watered = described_class.new(plant_type: :idea, domain: :t, content: 'x',
                                          health: 0.5, water_level: 0.8)
       thirsty = described_class.new(plant_type: :idea, domain: :t, content: 'x',
-                                     health: 0.5, water_level: 0.1)
+                                    health: 0.5, water_level: 0.1)
       well_watered.grow!
       thirsty.grow!
       expect(well_watered.health).to be > thirsty.health
